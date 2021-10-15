@@ -1,0 +1,581 @@
+Connection to PostgreSQL DB successful
+---------------------------------------
+Running 25 experiments with 1000
+-----------
+Running iteration 0
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 1
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 2
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 3
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 4
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 5
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 6
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 7
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 8
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 9
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 10
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 11
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 12
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 13
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 14
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 15
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 16
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 17
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 18
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 19
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 20
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 21
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 22
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 23
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+Running iteration 24
+Creating 1000 rows with index
+Finding value in 1000 rows with index
+Creating 1000 rows without index
+Finding value in 1000 rows without index
+-----------
+
+Average time to create rows with index 200.99490627966588
+Average time to create rows without index 118.12045364029473
+Average time to find row with index 0.7189691590610892
+Average time to find row without index 0.8737455203663558
+
+Write time with index raw data: [159.63042699877406, 156.72575399366906, 167.8358909994131, 145.32626399886794, 134.36354500299785, 135.36017300066305, 156.62637000059476, 167.25844799657352, 135.42384399625007, 167.43881200090982, 134.5901890017558, 145.4869239969412, 154.32046799833188, 145.89644900115672, 167.81640000408515, 156.54937899671495, 157.8218430004199, 322.5023039994994, 288.7872880019131, 290.1670159990317, 321.92990200564964, 333.10768299998017, 300.55491699749837, 289.20859700156143, 290.1437699983944]
+Write time without index raw data: [78.35238999541616, 100.61353900528047, 79.85892800206784, 78.31872499809833, 78.50283299922012, 89.54783700028202, 122.91436100349529, 89.465779994498, 100.7115479951608, 89.34305699949618, 79.35120600450318, 78.57000199874165, 80.48694299941417, 90.66169599827845, 89.59021999908146, 89.98679499927675, 134.1987740015611, 222.29593000520254, 189.35684800089803, 199.75531499949284, 166.86730299988994, 168.30305400071666, 166.459191001195, 211.02581699960865, 78.47324900649255]
+Find time with index raw data: [0.715615002263803, 0.6606559982174076, 0.5434039994725026, 0.7380619936157018, 0.724810000974685, 0.7416559965349734, 0.6330169999273494, 0.7257269971887581, 0.6495519992313348, 0.7814970012987033, 0.897881000128109, 0.5974539963062853, 0.8218399962061085, 0.5941970011917874, 0.5965049931546673, 0.38928499998291954, 0.4449719999684021, 0.8548850018996745, 0.5702330017811619, 1.1485029972391203, 0.7881319979787804, 0.6465920014306903, 1.0518990020500496, 0.9184790033032186, 0.7393759951810353]
+Find time without index raw data: [0.6785870064049959, 0.62284100567922, 1.0180850003962405, 0.8436930002062581, 0.8756750030443072, 0.6992859998717904, 1.096433996281121, 0.8428190049016848, 0.9361129996250384, 0.6887839990667999, 0.731226995412726, 0.7248990004882216, 0.4575929997372441, 0.7191959957708605, 0.6946350040379912, 0.6717080032103695, 0.8069649993558414, 1.1856359997182153, 1.1999350026599132, 1.371610000205692, 1.216995995491743, 0.8200000011129305, 0.9525470013613813, 1.1103569995611906, 0.8780169955571182]
+---------------------------------------
+---------------------------------------
+Running 25 experiments with 10000
+-----------
+Running iteration 0
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 1
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 2
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 3
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 4
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 5
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 6
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 7
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 8
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 9
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 10
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 11
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 12
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 13
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 14
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 15
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 16
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 17
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 18
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 19
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 20
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 21
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 22
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 23
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+Running iteration 24
+Creating 10000 rows with index
+Finding value in 10000 rows with index
+Creating 10000 rows without index
+Finding value in 10000 rows without index
+-----------
+
+Average time to create rows with index 228.28702055994654
+Average time to create rows without index 167.17443048022687
+Average time to find row with index 0.7413546403404325
+Average time to find row without index 2.1139293201849796
+
+Write time with index raw data: [222.52825999748893, 236.9873310017283, 248.16336799995042, 236.58412100485293, 237.00786499830429, 236.2321830005385, 251.7685549973976, 234.37021399877267, 222.70505099731963, 234.5020389984711, 234.3299990025116, 199.85267400625162, 221.4298930048244, 210.87054700183216, 221.7825219995575, 210.66580600017915, 238.04638099682052, 215.3361640012008, 226.57387499930337, 225.41335699497722, 236.22918699402362, 213.5521960008191, 264.3149670038838, 224.42088699608576, 203.5080720015685]
+Write time without index raw data: [137.23418199515436, 151.752703000966, 184.64515399682568, 174.0083719996619, 141.60475300013786, 140.68532799865352, 159.55711199785583, 150.20948500023223, 139.22213899786584, 149.27152900054352, 157.5043979973998, 182.66356099775294, 203.51615600520745, 149.22717599984026, 136.98884299810743, 148.68802500132006, 150.4794960055733, 139.6439250020194, 161.9172470018384, 150.69730499817524, 166.32178100553574, 453.0337289979798, 150.24046300095506, 127.93705700460123, 172.31084300146904]
+Find time with index raw data: [0.7218870014185086, 0.7825299981050193, 0.6734449998475611, 0.6805379962315783, 0.6788789978600107, 0.6700090016238391, 1.1654280024231412, 0.8652050019009039, 0.7075480025378056, 0.6578620013897307, 0.716804999683518, 0.6838620029157028, 0.6409019988495857, 0.7638040042365901, 0.7270659989444539, 0.9148620010819286, 0.7686009994358756, 0.7020460034254938, 0.7108479985618033, 0.7066690013743937, 1.006550999591127, 0.49689700244925916, 0.6624439993174747, 0.7315039983950555, 0.6976739969104528]
+Find time without index raw data: [2.0730250034830533, 1.752685995597858, 1.8037569971056655, 1.9478820031508803, 2.237257001979742, 2.0427730050869286, 1.9190570019418374, 2.3815250024199486, 1.7958049938897602, 1.9941770005971193, 1.879717005067505, 2.0879700023215264, 1.7502010014140978, 1.9528889970388263, 2.0766169982380234, 1.8301309974049218, 2.105109997501131, 1.830574001360219, 2.9693149990634993, 2.2256259981077164, 1.9343179956194945, 3.6662080019596033, 2.625406996230595, 1.893753003969323, 2.0724530040752143]
+---------------------------------------
+---------------------------------------
+Running 15 experiments with 100000
+-----------
+Running iteration 0
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 1
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 2
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 3
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 4
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 5
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 6
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 7
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 8
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 9
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 10
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 11
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 12
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 13
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+Running iteration 14
+Creating 100000 rows with index
+Finding value in 100000 rows with index
+Creating 100000 rows without index
+Finding value in 100000 rows without index
+-----------
+
+Average time to create rows with index 1017.1583921992957
+Average time to create rows without index 747.2554627340287
+Average time to find row with index 0.9633263995056041
+Average time to find row without index 14.031548532754337
+
+Write time with index raw data: [1125.4686179963755, 952.6161809990299, 857.3766049958067, 1036.0233020037413, 984.0526830012095, 989.5289350024541, 936.5364170007524, 1043.452955003886, 1011.0853299993323, 1044.9969599940232, 1012.4881439987803, 1160.567163999076, 1054.037485999288, 971.1006439974881, 1078.0444589981926]
+Write time without index raw data: [717.1195050032111, 713.3962340012658, 704.4262749986956, 725.8756869996432, 704.1572039961466, 712.7295570026035, 762.0829900042736, 757.3082279996015, 724.3969070041203, 753.383137001947, 853.7863020028453, 763.543879998906, 824.7774219998973, 720.0800610007718, 771.7685519965016]
+Find time with index raw data: [0.7802190011716448, 0.9694399996078573, 0.627542998699937, 0.7691260034334846, 0.6756829970981926, 1.0045939998235554, 1.04685100086499, 1.286234000872355, 1.1241199972573668, 0.9177289975923486, 0.615726996329613, 1.0210670006927103, 1.2645870010601357, 1.3138639988028444, 1.0331119992770255]
+Find time without index raw data: [16.18640899687307, 15.59404799627373, 12.468590000935365, 12.30601899442263, 12.621160996786784, 16.52064900554251, 13.228814998001326, 13.851129995600786, 12.782411002262961, 17.985586004215293, 14.975063000747468, 12.656617000175174, 13.005053995584603, 11.679809002089314, 14.611867001804058]
+---------------------------------------
+---------------------------------------
+Running 15 experiments with 1000000
+-----------
+Running iteration 0
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 1
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 2
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 3
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 4
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 5
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 6
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 7
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 8
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 9
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 10
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 11
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 12
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 13
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+Running iteration 14
+Creating 1000000 rows with index
+Finding value in 1000000 rows with index
+Creating 1000000 rows without index
+Finding value in 1000000 rows without index
+-----------
+
+Average time to create rows with index 9508.809669598608
+Average time to create rows without index 7093.924751066273
+Average time to find row with index 0.6709127337671816
+Average time to find row without index 31.829373401221044
+
+Write time with index raw data: [10023.497248999774, 9562.795063000522, 9686.770270993293, 10273.020706998068, 9150.357124002767, 9134.030693996465, 10842.793582000013, 9062.958460999653, 9039.685212999757, 9316.044998995494, 9286.249183001928, 9844.260704994667, 9098.651098000119, 9148.554020997835, 9162.476673998754]
+Write time without index raw data: [7007.396193999739, 6782.656916002452, 6883.480231001158, 7498.802453003009, 6666.187753995473, 7554.1627849961515, 7249.584445999062, 7345.741900004214, 7327.594922004209, 6872.249128995463, 7147.838851997221, 6857.48267800227, 7236.923422999098, 7365.961489995243, 6612.80809299933]
+Find time with index raw data: [0.6391220013028942, 0.7213120043161325, 0.7127110002329573, 0.7058870032778941, 0.6609260017285123, 0.6821259958087467, 0.6549009995069355, 0.6043800021870993, 0.6893019963172264, 0.7133889957913198, 0.6821470014983788, 0.4918949998682365, 0.7203760033007711, 0.6836040047346614, 0.7016129966359586]
+Find time without index raw data: [33.52926800289424, 31.71915800339775, 30.808766001428012, 32.042272003309336, 30.76118500030134, 31.646193005144596, 30.790741999226157, 30.637825999292545, 32.36429900425719, 30.79124399664579, 30.34291500080144, 30.659272000775672, 39.5745230052853, 30.94416500243824, 30.828772993118037]
+---------------------------------------
+---------------------------------------
+Running 5 experiments with 10000000
+-----------
+Running iteration 0
+Creating 10000000 rows with index
+Finding value in 10000000 rows with index
+Creating 10000000 rows without index
+Finding value in 10000000 rows without index
+-----------
+Running iteration 1
+Creating 10000000 rows with index
+Finding value in 10000000 rows with index
+Creating 10000000 rows without index
+Finding value in 10000000 rows without index
+-----------
+Running iteration 2
+Creating 10000000 rows with index
+Finding value in 10000000 rows with index
+Creating 10000000 rows without index
+Finding value in 10000000 rows without index
+-----------
+Running iteration 3
+Creating 10000000 rows with index
+Finding value in 10000000 rows with index
+Creating 10000000 rows without index
+Finding value in 10000000 rows without index
+-----------
+Running iteration 4
+Creating 10000000 rows with index
+Finding value in 10000000 rows with index
+Creating 10000000 rows without index
+Finding value in 10000000 rows without index
+-----------
+
+Average time to create rows with index 119882.1114262013
+Average time to create rows without index 82285.52730300144
+Average time to find row with index 17.205978200945538
+Average time to find row without index 2448.646335200465
+
+Write time with index raw data: [123577.17033499648, 115424.52926200349, 119904.67718200671, 125681.98393299826, 114822.19641900156]
+Write time without index raw data: [90144.1642130012, 81456.33957900282, 80668.13031300262, 79642.0245029949, 79516.97790700564]
+Find time with index raw data: [14.311150000139605, 46.93351500463905, 0.6486290003522299, 0.6826770040788688, 23.453919995517936]
+Find time without index raw data: [9949.930116999894, 375.51234000420664, 739.0640640005586, 795.3761699973256, 383.34898500033887]
+---------------------------------------
