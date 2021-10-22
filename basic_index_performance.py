@@ -175,32 +175,49 @@ def find_value(conn, value):
     find_rows(conn, value=(value,))
 
 
-def metrics(conn, num_rows, num_experiments=1):
+def metrics(conn, num_rows, num_write_experiments=1, num_read_experiments=100):
 
     write_times_with_index = []
     write_times_without_index = []
     find_time_with_index = []
     find_time_without_index = []
     print("---------------------------------------")
-    print(f"Running {num_experiments} experiments with {num_rows}")
+    print(
+        f"Running {num_write_experiments} write experiments and "
+        f" {num_read_experiments} read experiments with {num_rows} rows"
+    )
+    # with index
     print("-----------")
-    for i in range(num_experiments):
-        print(f"Running iteration {i}")
-        print(f"Creating {num_rows} rows with index")
+    print(f"Running {num_write_experiments} write experiments with index")
+    for i in range(num_write_experiments):
+        print(f"Running write iteration {i+1} with index")
         t = create_rows(conn, db_index=True, num_rows=num_rows)
         write_times_with_index.append(t)
-        print(f"Finding value in {num_rows} rows with index")
+    print("-----------")
+
+    print(f"Created table with index with {num_rows} rows")
+    print(f"Running {num_read_experiments} read experiments with index")
+    for j in range(num_read_experiments):
         t = find_value(conn, random.randint(1, num_rows))
         find_time_with_index.append(t)
 
-        print(f"Creating {num_rows} rows without index")
+    # without index
+    print("-----------")
+    print(f"Running {num_write_experiments} write experiments without index")
+    for i in range(num_write_experiments):
+        print(f"Running write iteration {i+1} without index")
         t = create_rows(conn, num_rows=num_rows, db_index=False)
         write_times_without_index.append(t)
-        print(f"Finding value in {num_rows} rows without index")
+    print("-----------")
+
+    print(f"Created table without index with {num_rows} rows")
+    print(f"Running {num_read_experiments} read experiments without index")
+    for j in range(num_read_experiments):
         t = find_value(conn, random.randint(1, num_rows))
         find_time_without_index.append(t)
-        print("-----------")
+        # print("-----------")
 
+    print("-----------")
     print("")
     print(f"Average time to create rows with index {mean(write_times_with_index)}")
     print(
@@ -209,11 +226,12 @@ def metrics(conn, num_rows, num_experiments=1):
     print(f"Average time to find row with index {mean(find_time_with_index)}")
     print(f"Average time to find row without index {mean(find_time_without_index)}")
 
-    print("")
-    print(f"Write time with index raw data: {write_times_with_index}")
-    print(f"Write time without index raw data: {write_times_without_index}")
-    print(f"Find time with index raw data: {find_time_with_index}")
-    print(f"Find time without index raw data: {find_time_without_index}")
+    # TODO write data to CSV file
+    # print("")
+    # print(f"Write time with index raw data: {write_times_with_index}")
+    # print(f"Write time without index raw data: {write_times_without_index}")
+    # print(f"Find time with index raw data: {find_time_with_index}")
+    # print(f"Find time without index raw data: {find_time_without_index}")
     print("---------------------------------------")
 
 
@@ -222,14 +240,14 @@ if __name__ == "__main__":
     # Difference between selecting a row with/without indices
     # Parameters: 1. no. of rows
     # 1000 rows
-    metrics(conn, 1000, 25)
+    metrics(conn, 1000, 50, 10_000)
 
-    metrics(conn, 10_000, 25)
+    metrics(conn, 10_000, 50, 10_000)
 
-    metrics(conn, 100_000, 15)
+    metrics(conn, 100_000, 50, 10_000)
 
-    metrics(conn, 1_000_000, 15)
+    metrics(conn, 1_000_000, 25, 5000)
 
-    metrics(conn, 10_000_000, 5)
+    metrics(conn, 10_000_000, 10, 1000)
 
     conn.close()
